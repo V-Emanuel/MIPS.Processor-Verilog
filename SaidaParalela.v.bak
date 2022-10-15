@@ -1,0 +1,4 @@
+module Parallel_OUT (input Address, we, RegData,
+								output DataOut, wren);
+wire fiaA, fioB;
+

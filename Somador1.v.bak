@@ -1,0 +1,4 @@
+module somador1 (input [7:0]A,
+						output [7:0]B);
+	assign B = A + 1;
+endmodule 

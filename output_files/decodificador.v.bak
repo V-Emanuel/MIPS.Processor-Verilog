@@ -1,0 +1,20 @@
+module dec (input [3:0]entrada
+								output reg[6:0]saida);
+								
+		always @(*) begin
+			case(entrada)
+				4'd0: saida = 7'd0;
+				4'd1: saida = 7'd1;
+				4'd2: saida = 7'd2;
+				4'd3: saida = 7'd3;
+				4'd4: saida = 7'd4;
+				4'd5: saida = 7'd5;
+				4'd6: saida = 7'd5;
+				4'd7: saida = 7'd7;
+				4'd8: saida = 7'd8;
+				4'd9: saida = 7'd9;
+				default: saida = 7';
+			endcase
+		end
+endmodule
+

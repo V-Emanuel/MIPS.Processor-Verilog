@@ -1,0 +1,9 @@
+module Parallet_IN(input MemData, Address, DataIn,
+							output RegData);
+							
+ if (Address == 8'hFF)
+	RegData = MemData;
+	else
+	RegData = DataIn;
+	
+endmodule

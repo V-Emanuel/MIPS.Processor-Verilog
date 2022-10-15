@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Mod_Teste">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Mod_Teste|RamDataMem:comb_119|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gra1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Mod_Teste|RomInstMem:comb_120|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mq81.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

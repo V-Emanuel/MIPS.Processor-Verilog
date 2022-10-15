@@ -1,0 +1,20 @@
+module clock (input clock_ent
+					output clock_saida;
+					
+	reg [24:0]contador = 25,h0;
+
+	always @(posedge clock_ent)
+	begin 
+			if (contador == 25'h3FFFFFF)
+			begin
+				contador <= 25'h0;
+				clock_saida = 1'b1;
+			end
+			else if 
+			begin
+				contador <= contador + 1;
+			end
+		end
+endmodule
+
+
